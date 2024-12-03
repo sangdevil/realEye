@@ -36,18 +36,6 @@
 
 ## 2. 필요 모듈 설치
 
-### 새 프로젝트를 시작할 경우
-1. 가상환경이 활성화된 상태에서 Django와 필요한 모듈을 설치합니다:
-   ```bash
-   pip install django djangorestframework pillow
-   ```
-
-2. 설치된 모듈을 `requirements.txt`에 저장합니다:
-   ```bash
-   pip freeze > requirements.txt
-   ```
-
-### 기존 프로젝트를 클론하거나 `requirements.txt`가 제공된 경우
 1. 가상환경이 활성화된 상태에서 다음 명령어를 실행합니다:
    ```bash
    pip install -r requirements.txt

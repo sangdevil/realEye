@@ -35,18 +35,6 @@ This project provides an API server using Django and a deep learning model to up
 
 ## 2. Installing Required Modules
 
-### Starting a New Project
-1. With the virtual environment activated, install Django and the necessary modules:
-   ```bash
-   pip install django djangorestframework pillow
-   ```
-
-2. Save the installed modules to a `requirements.txt` file:
-   ```bash
-   pip freeze > requirements.txt
-   ```
-
-### For an Existing Project or When `requirements.txt` is Provided
 1. With the virtual environment activated, run the following command:
    ```bash
    pip install -r requirements.txt
